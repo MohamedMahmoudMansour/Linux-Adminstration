@@ -1,0 +1,197 @@
+    1  exit
+    2  exit
+    3  exit
+    4  exit
+    5  exit
+    6  exit
+    7  exit
+    8  exxit
+    9  exit
+   10  exit
+   11  exit
+   12  exit
+   13  exit
+   14  tree
+   15  sudo snap install tree
+   16  sudo apt  install tree
+   17  mkdir -p f1/f2/f3/f4
+   18  tree
+   19  rm -rv f1
+   20  vim f1
+   21  more f1
+   22  less f1
+   23  more f1
+   24  less f1
+   25  vim f1
+   26  head -n 3 f1
+   27  tail -n f1
+   28  tail -n 3 f1
+   29  tail -10 f1
+   30  head -10 f1
+   31  less f1
+   32  more f1
+   33  man head
+   34  ls /li
+   35  ls -li
+   36  tree
+   37  rm -r f1 
+   38  rm -r f2
+   39  touch f1
+   40  touch f1.txt
+   41  touch f2.txt
+   42  vim f1.txt
+   43  gedit f1.txt
+   44  rm f2.txt
+   45  ln f1.txt f2.txt
+   46  ls -li
+   47  rm *
+   48  touch mansour.txt
+   49  ln mansour.txt hussen.txt
+   50  ls -li
+   51  gedit mansour.txt
+   52  gedit mansour.txt &
+   53  gedit hussen.txt
+   54  rm *
+   55  touch mansour.txt
+   56  gedit mansour.txt
+   57  ln -s mansour.txt hussen.txt
+   58  gedit hussen.txt
+   59  cat hussen.txt
+   60  cat mansour.txt
+   61  clear
+   62  rm mansour.txt
+   63  ls 
+   64  touch mansour.txt
+   65  ls 
+   66  rm *
+   67  man ln
+   68  unln hussen.txt
+   69  unlink hussen.txt
+   70  unlink mansour.txt
+   71  rm *
+   72  clear
+   73  touch f1 
+   74  ls -l
+   75  chmod u+x f1
+   76  ls -l
+   77  chmod u-x f1
+   78  ls -l
+   79  ln f1.txt f2.txt
+   80  rm f2.text
+   81  sudo adduser mohamed mansour
+   82  sudo adduser mansour
+   83  sudo adduser mohamed
+   84  su mohamed
+   85  sudo deluser mohamed
+   86  ls
+   87  sudo rm -rf mohamed
+   88  ls 
+   89  cd /home
+   90  ls
+   91  sudo rm -rf mohamed
+   92  ls
+   93  cd ~
+   94  rm -r 1
+   95  sudo usermod -aG sudo mohamed 
+   96  su mohamed
+   97  sudo usermod -aG sudo mohamed usr
+   98  groups
+   99  su mohamed
+  100  groups
+  101  su mohamed
+  102  sudo apt install mailutils
+  103  0
+  104  sudo apt install mailutils 0
+  105  sudo apt install mailutils 
+  106  clear
+  107  echo $v
+  108  exit
+  109  export v=100
+  110  echo $v
+  111  bash
+  112  exit
+  113  cd ~
+  114  ls /bin/ | grep ash
+  115  var1=status
+  116  echo $var1
+  117  echo var1
+  118  echo $pwd
+  119  echo $PWD
+  120  echo$HOMe
+  121  echo $HOME
+  122  echo $SHELL
+  123  env
+  124  gedit .bashrc
+  125  touch script1
+  126  gedit script1 &
+  127  ls 
+  128  ./script1
+  129  chmod 777 script1
+  130  ls
+  131  ./script1
+  132  pwd
+  133  ./script1
+  134  ./script
+  135  ./script1
+  136  cat script
+  137  cat script1
+  138  ./script1
+  139  echo *.sh
+  140  ./script1
+  141  clear
+  142  ./script1
+  143  bash
+  144  exit
+  145  ./script1
+  146  export myvar=100
+  147  echo $myvar
+  148  ./script1
+  149  ./lab_file
+  150  chmod 777 ./lab_file
+  151  ls
+  152  ./lab_file
+  153  gedit lab_file
+  154  ./lab_file
+  155  ./script1
+  156  touch script.h
+  157  touch script.c
+  158  gedit script.h
+  159  ./script.c
+  160  chmod 777 ./script.c
+  161  ./script.c
+  162  ./script.h
+  163  chmod 777 ./script.h
+  164  ./script.h
+  165  ./script.c
+  166  gedit script,.c
+  167  gedit script.c
+  168  ./script.c
+  169  ./script.h
+  170  ./script.c
+  171  mail -v
+  172  mail -V
+  173  $mail -s 'subject' username@gmail.com
+  174  touch file
+  175  gedit file
+  176  ./file
+  177  chmod 777 ./file
+  178  ./file
+  179  clear
+  180  ./file
+  181  exit
+  182  ./file
+  183  xdg -open https://www.youtube.com
+  184  sudo apt install <deb name>
+  185  xdg -open https://www.youtube.com
+  186  clear
+  187  xdg-open https://www.youtube.com
+  188  ./file
+  189  cd ~
+  190  ./file
+  191  clear
+  192  ./file
+  193  exit
+  194  history
+  195  cd Desktop
+  196  touch history.txt
+  197  history >> history.txt
