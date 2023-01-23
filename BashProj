@@ -1,0 +1,134 @@
+#!/bin/bash
+
+
+<<comment
+
+phone book project
+
+comment
+
+
+# (1) list/search
+# (2) ADD
+# (3) EDIT
+# (4) Remove
+# (0) Quit
+
+c=5
+declare -a arr=(1 2)
+counter=1
+while [ $c -ne 0 ]
+do
+echo "(1) list/search"
+echo "(2) add"
+echo "(3) edit"
+echo "(4) remove"
+echo "(0) quit"
+
+read -p "Please enter your selection: " sel
+
+# list/search selection
+if [ $sel -eq 1 ] 
+then 
+echo "(1) to search"
+echo "(2) to list"
+
+read -p ">> " sel1
+
+# search selection
+if [ $sel1 -eq 1 ] 
+then
+
+read -p "Enter number: " numb
+
+for i in ${arr[@]} 
+do
+if [ $numb -eq $i ]
+then
+echo "__________________________"
+echo "Number exists"
+echo "__________________________"
+fi
+
+done
+
+echo "hello from search"
+
+elif [ $sel1 -eq 2 ] # list selection
+then
+echo "__________________________"
+echo "${arr[@]}"
+echo "__________________________"
+fi
+
+# to Add number
+elif [ $sel -eq 2 ]
+then
+
+read -p "Enter number: " num2
+
+arr[$counter]=$num2
+let counter=counter+1
+
+
+# for edition
+elif [ $sel -eq 3 ]
+then
+
+read -p "Enter old number: " old
+
+index=1
+
+while [ $index -lt $counter ]
+do
+
+if [ ${arr[$index]} -eq $old ]
+then
+read -p "Enter new number: " new
+arr[$index]=$new
+
+let index=counter+1
+fi
+
+let index=index+1
+
+done
+
+
+# For Removing
+elif [ $sel -eq 4 ]
+then
+
+read -p "Enter number: " rem
+in=0
+while [ $in -lt $counter ]
+do
+
+if [ ${arr[$in]} -eq $rem ]
+then
+
+
+unset arr[$in]
+let counter=counter-1
+
+fi
+
+let in=in+1
+
+done
+
+
+# to quit the system
+elif [ $sel -eq 0 ]
+then 
+c=0
+fi
+
+
+done
+
+
+
+
+
+
